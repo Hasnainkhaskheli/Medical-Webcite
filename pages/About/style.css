@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.banner-section{
+    background-image: url("./images/breadcrumb.png.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+.heaading{
+    font-size: 50px;
+    font-weight: 700;
+    font: 700 100px "Playfair Display", serif;
+    position: absolute;
+    top: 30%;
+    right: 40%;
+}
+.about-us{
+    background-image: url("./images/about_bg.png.webp");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+.single-itm img{
+    width: 35%;
+    height: 35%;
+}
+.single-itm h5{
+    font: 500 18px "Playfair Display", serif;
+}
+.about-us-text h3{
+    font: 600 42px "Playfair Display", serif;
+}
+.about-us-text p{
+    font: 400 16px "Roboto", sans-serif;;
+}
+.main-body h1{
+    font: 700 44px "Playfair Display", serif;
+}
+.card-img-top{
+    width:40%;
+    height: 40%;
+}
+
+.main-body h1{
+    text-align: center;
+}
+
+.to-card{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.eye-img{
+    z-index: 1;
+}
+
+.card-body{
+    text-align: center;
+    position: relative;
+}
+.card-main:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+
